@@ -2,7 +2,18 @@
     padding: 0%;
     margin: 0%;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #eff2f1;
+    font-weight: 400;
+    line-height: 28px;
+    /* color: #6a6a6a; */
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
 .navbar_section {
     position: fixed;
     top: 0;
@@ -36,13 +47,12 @@
 .heroo {
     background: #3b5d50;
     padding: 100px 0px 100px 0px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .heroimg {
-    height: fit-content;
-    width: 500px;
-
+    max-width: 100%;
+    height: auto;
 }
 
 .hh:hover {
@@ -59,7 +69,9 @@ h6 {
 }
 
 
-
+.row{
+    margin: 20px;
+}
 
 .slider {
     
@@ -161,9 +173,7 @@ footer .foot{
 
 @media (max-width: 768px) {
     
-    .heroimg {
-        width: 100%;
-    }
+    
 
     .nav-url {
         justify-content: center; 
@@ -186,7 +196,8 @@ footer .foot{
 
     .heroimg {
         width: 100%; 
-        max-width: 300px;
+        max-width: 100%;
+        height: auto;
         margin-top: 20px;
     }
     .heroo p {
@@ -202,6 +213,7 @@ footer .foot{
     font-weight: 500;
 
    }
+   
 }
 .card-img-top {
     transition: transform 0.5s ease;
@@ -209,6 +221,10 @@ footer .foot{
   
   .card:hover .card-img-top {
     transform: translateY(-20%);
+    
+  }
+  .card :hover{
+    background-color: rgb(217, 221, 223); /* Change this to the desired color */
   }
   
   .card .btn {
@@ -221,6 +237,7 @@ footer .foot{
   
   .card:hover .btn {
     display: block;
+ 
   }
   
 
@@ -229,9 +246,7 @@ footer .foot{
     transition: background-color 0.3s ease;
   }
   
-  .card-body:hover {
-    background-color: lightblue; /* Change this to the desired color */
-  }  
+
   .middel{
     background-color: #eff2f1;
   }
@@ -287,3 +302,27 @@ footer .foot{
 #pak{
     text-decoration: none; color: #3b5d50;font-size: -25px;font-weight: 700;
 }
+.cart-section-1{
+    height: 250px;
+    width: 100%;
+    background-color: #3b5d50;
+}
+.cart-section-1 h1{
+    font-size:2.5rem;
+    color: #eff2f1;
+    font-weight: 800;
+    padding-top: 130px ; 
+    padding-left: 70px;
+}
+.ajj{
+
+        width: 0%; /* Adjust as needed */
+        text-align: center;
+    }
+.table-cart{
+    padding-bottom: 160px;
+}
+#pad{
+    padding-top: 300px;
+}
+
