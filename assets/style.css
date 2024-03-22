@@ -40,7 +40,6 @@ body {
 .header_section ul li a{
     position: relative;
     font-size: 15px;
-
 }
 .navbar-dark .navbar-toggler{
     border: none;
@@ -86,31 +85,21 @@ body {
 .row {
     --bs-gutter-x: 0rem !important;
 }
-
 .ov {
     padding-top: 30px;
 }
-
-
 .section2 {
     padding: 100px;
 }
-
-
-
 .heroo {
     background: #3b5d50;
     padding: 100px 0px 50px 0px;
     
 }
-
 .heroimg {
     max-width: 100%;
     height: auto;
 }
-
-
-
 .heroo p {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -147,7 +136,6 @@ body {
     text-align: center;
     align-items: center;
 }
-
 h6{
     
     font-size:large;
@@ -159,53 +147,36 @@ h6{
     color: #ffffff;
     background: #2f2f2f;
     border: none;
-    text-decoration: none;
-  
+    text-decoration: none; 
     }
 .explorbut{
     margin-top: 10px;
     text-align: start;
 }
-
-
 .card-group .card {
     margin-right: 20px;
     border: none;
     background-color:#eff2f1;
 }
-
 .card-group .card:last-child {
     margin-right: 20px;
 }
-
 .slider {
-
-    
     padding-bottom: 7.5%;
     padding-top: 7.5%;
 }
-
 .slider h3 {
     font-size: 2.5rem;
     text-align: center;
 }
-
 .slider p {
     text-align: center;
     font-size: large;
-
-
 }
-
-
 .para{
     padding-left: 80px;
     padding-right: 40px;
-
 }
-
-
-
 .slider_main_div {
     width: 100%;
     padding-top: 100px;
@@ -223,134 +194,57 @@ h6{
     text-decoration: none;
     color: #ff0000;
 }
-
-
-
-
 footer {
     padding-top: 6%;
     background-color:white;
     padding-left: 30px;
 }
-
 footer .foot {
     padding-bottom: 3%;
 }
-
 .uss li {
     list-style: none;
     padding: 0%;
 
 }
-
-
-
 .uss li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
-
 .aboutus_section_one {
     padding-top: 100px;
 }
-
 .aboutus_section_one a {
     text-decoration: none;
-
-
 }
-
 .aboutus_section {
     background-color: #eff2f1;
     padding-top: 100px;
     padding-bottom: 8%;
 }
-
 .border-top {
     border-top: 2px solid #464e57 !important;
 }
-
 .shopmm {
     background-color: #eff2f1;
 }
-
-
-
-
-
-
 .zero {
     padding-top: 100px;
     font-weight: 900;
     font-size: 26px;
 }
 .carousel-control-next{
-    background-color: grey;
+    background-color: rgba(17, 44, 34, 0.1);
     border-radius: 50%;
     height: 50px;
     width: 50px;
 }
-
 .carousel-control-prev  {
     
-    background-color: grey;
+    background-color: rgba(17, 44, 34, 0.1);
     border-radius: 50%;
     height: 50px;
     width: 50px;
-}
-
-
-@media (max-width: 768px) {
-
-
-
-    .nav-url {
-        justify-content: center;
-    }
-
-    .slider_main_div {
-        max-width: 90%;
-    }
-
-    .footer ul {
-        text-align: center;
-    }
-
-    .navbar-collapse {
-        justify-content: center;
-    }
-
-    .heroo {
-        padding-top: 20%;
-    }
-
-    .heroimg {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
-
-    .heroo p {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-
-    .button1 {
-        margin-top: 20px;
-    }
-
-    #pak {
-        font-size: 20px;
-        font-weight: 500;
-
-    }
-    .row{
-
-        padding-top:25px;
-    }
-
 }
 
 .card-img-top {
@@ -555,6 +449,8 @@ th{
 
 
 
+
+
 .social-icons {
     text-align: center; /* Align icons to the center */
   }
@@ -590,10 +486,67 @@ th{
     color: white;
     border-radius: 50px;
   }
-  
+    
   .fa-youtube {
     background:#3b5d50;
     color: white;
     border-radius: 50px;
   }
-  
+  @media (max-width: 768px) {
+
+
+
+    .nav-url {
+        justify-content: center;
+    }
+
+    .slider_main_div {
+        max-width: 90%;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    .heroo {
+        padding-top: 20%;
+    }
+
+    .heroimg {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .heroo p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .button1 {
+        margin-top: 20px;
+    }
+
+    #pak {
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+    .row{
+
+        padding-top:25px;
+    }
+    .PPP{
+        padding-bottom: px;
+    }
+    .col {
+       padding-bottom: 40px;
+    }
+}
+.btn btn-secondary rounded
+
