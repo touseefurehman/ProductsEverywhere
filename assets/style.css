@@ -172,19 +172,16 @@ h6{
 .slider p {
     text-align: center;
     font-size: large;
-}
-.para{
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 40px;
 }
+
 .slider_main_div {
-    width: 100%;
-    padding-top: 100px;
+    
+    padding-top: 70px;
     
 }
-.slider_main_div p{
-    margin-right: 80px;
-}
+
 .section5 {
     list-style: none;
 
@@ -238,6 +235,7 @@ footer .foot {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+
 }
 .carousel-control-prev  {
     
@@ -345,11 +343,10 @@ footer .foot {
 }
 
 #pak {
+    font-size: 32px;
+    font-weight: 600;
     text-decoration: none;
     color: #3b5d50;
-    font-size: 25px;
-    font-weight: 700;
-    
 }
 #ot{
     flex-shrink: 0;
@@ -458,7 +455,7 @@ th{
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -470,27 +467,27 @@ th{
   }
   
   .fa-facebook {
-    background: #3b5d50;
-    color: white;
-    border-radius: 50px;
+   background:#eff2f1 ;
+    color: #3b5d50;
+    border-radius: 25px;
   }
   
   .fa-linkedin {
-    background: #3b5d50;
-    color: white;
-    border-radius: 50px;
+    background:#eff2f1 ;
+    color: #3b5d50;
+    border-radius: 25px;
   }
   
   .fa-instagram {
-    background:#3b5d50 ;
-    color: white;
-    border-radius: 50px;
+    background:#eff2f1 ;
+    color: #3b5d50;
+    border-radius: 25px;
   }
     
   .fa-youtube {
-    background:#3b5d50;
-    color: white;
-    border-radius: 50px;
+  background:#eff2f1 ;
+    color: #3b5d50;
+    border-radius: 25px;
   }
   @media (max-width: 768px) {
 
@@ -499,11 +496,6 @@ th{
     .nav-url {
         justify-content: center;
     }
-
-    .slider_main_div {
-        max-width: 90%;
-    }
-
     .footer ul {
         text-align: center;
     }
@@ -527,16 +519,23 @@ th{
         font-size: 14px;
         line-height: 1.5;
     }
-
+  
     .button1 {
         margin-top: 20px;
     }
-
+    .card-group .card {
+        padding-left: 20px;
+    }
+   
     #pak {
         font-size: 20px;
         font-weight: 500;
 
     }
+
+   .bon{
+    padding-top: 100px;
+   }
     .row{
 
         padding-top:25px;
@@ -547,6 +546,11 @@ th{
     .col {
        padding-bottom: 40px;
     }
-}
-.btn btn-secondary rounded
-
+    .card{
+        padding-bottom: 40px;
+    }
+    }
+    .text-black{
+        font-size: large;
+        font-weight: 900;
+    }
