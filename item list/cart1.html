@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 </head>
 
 <body style="background-color:#eff2f1;">
@@ -86,8 +86,9 @@
                                     <div class="input-group mb-3 d-flex align-items-center justify-content-center quantity-container"
                                         style="max-width: 120px;">
                                         <input id="quantityInput" type="number" min="1" value="1" placeholder=""
-                                            class="form-control text-center quantity-amount" aria-label="Example text with button addon"
-                                            aria-describedby="button-addon1" oninput="updateTotal()">
+                                            class="form-control text-center quantity-amount"
+                                            aria-label="Example text with button addon" aria-describedby="button-addon1"
+                                            oninput="updateTotal()">
                                     </div>
                                 </td>
                                 <td id="total" class="align-middle">$59.99</td>
@@ -141,7 +142,6 @@
             </div>
         </section>
     </div>
-
     <script>
         function updateTotal() {
             var quantity = document.getElementById("quantityInput").value;
@@ -157,52 +157,38 @@
         }
     </script>
 
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="exampleModal" tabindex="-1"
-                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title" id="staticBackdropLabel"></h5>
-                                                            <button type="button" class="btn-close"
-                                                                data-bs-dismiss="modal" aria-label="Close"></button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="modal_body_main">
-                                                                <div class="modal_input_div">
-                                                                    <label for="">First Name</label>
-                                                                    <input type="text" placeholder="First Name">
-                                                                </div>
-                                                                <div class="modal_input_div">
-                                                                    <label for="">Last Name</label>
-                                                                    <input type="text" placeholder="Last Name">
-                                                                </div>
-                                                                <div class="modal_input_div">
-                                                                    <label for="">Email</label>
-                                                                    <input type="text"
-                                                                        placeholder="Enter Email Address">
-                                                                </div>
-                                                                <div class="modal_button_div">
-                                                                    <button type="button"
-                                                                        id="show-alert">Submit</button>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="modal_body_main">
+                        <div class="modal_input_div">
+                            <label for="">First Name</label>
+                            <input type="text" placeholder="First Name">
                         </div>
-                    </div>
+                        <div class="modal_input_div">
+                            <label for="">Last Name</label>
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="modal_input_div">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="Enter Email Address">
+                        </div>
+                        <div class="modal_button_div">
+                            <button type="button" id="show-alert">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
-
+        </div>
     </div>
-
+    </section>
+    </div>
     <footer id="section5">
         <div class="container relative">
 
@@ -223,7 +209,7 @@
                             <a href="#" class="fa fa-instagram"></a>
                             <a href="#" class="fa fa-youtube"></a>
                         </div>
-                              
+
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-7">
@@ -272,5 +258,4 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
