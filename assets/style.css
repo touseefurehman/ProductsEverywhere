@@ -96,10 +96,7 @@ body {
     padding: 100px 0px 50px 0px;
     
 }
-.heroimg {
-    max-width: 100%;
-    height: auto;
-}
+
 .heroo p {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -191,7 +188,7 @@ h6{
 footer {
     padding-top: 6%;
     background-color:white;
-    padding-left: 30px;
+    
 }
 
 footer .foot {
@@ -534,12 +531,10 @@ th{
         padding-left: 20px;
     }
    
-    #pak {
-        font-size: 20px;
-        font-weight: 500;
-
+   
+    #pak{
+        font-size: 28px;
     }
-
    .bon{
     padding-top: 100px;
    }
